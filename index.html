@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+
+<head>
+	<title>Search</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+	 crossorigin="anonymous">
+   <link  rel="stylesheet" href = "style.css">
+</head>
+
+
+
+<body>
+<div id = header>
+  <a href = "image_search.html" class = "top_links"> Images </a>
+  <a href = "advanced_search.html" class = "top_links"> Advanced </a>
+
+</div>
+
+<div id = main>
+<img src="google.png" alt = "doodle" width="300">
+  
+	<form action="https://google.com/search">
+		<input type="search" placeholder ="Search" id="search" name = "q" class = "text1" autocomplete="off">
+    <div style="padding-top:10px">
+    <input type="submit" value="Google Search" class = "button">
+    <input type="submit" value="I'm Feeling Lucky" class = "button" name = "btnI" data-ved="0ahUKEwiUvt28ivnuAhUBbawKHdwVCUkQnRsIDg">
+    <input value="AINFCbYAAAAAYDFhg5Kv1OG22M8pMBHTu6PIhyJAEp1X" name="iflsig" type="hidden">
+    </div>
+  </form>
+</div>
     </body>
 </html>

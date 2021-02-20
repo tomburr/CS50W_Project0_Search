@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Search</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+	 crossorigin="anonymous">
+   <link  rel="stylesheet" href = "style.css">
+</head>
+
+<body>
+<div id = advanced_header>
+  <a href = "index.html"><img src="google_transparent.png" alt = "doodle" height = "35"> </a>
+</div>
+
+<div id = main_advanced>  
+  <h5> Advanced Search </h5>
+</div>
+
+<div id = advanced_fields>
+Find pages with...
+
+<div id = advanced_table>
+
+<form action="https://google.com/search">
+
+  <div class = "flex_container">
+    <div class = "flex_col_left">
+        all these words:
+    </div>
+    <div class = "flex_col_right">
+		      <input type="search" id="advanced_search" name = "as_q" class = "text1" autocomplete="off">
+
+    </div>
+    </div>
+
+    <div class = "flex_container">
+    <div class = "flex_col_left">
+        this exact word or phrase:
+    </div>
+    <div class = "flex_col_right">
+
+		      <input type="search" id="advanced_search" name = "as_epq" class = "text1" autocomplete="off">
+
+    </div>
+    </div>
+
+    <div class = "flex_container">
+    <div class = "flex_col_left">
+        any of these words:
+    </div>
+    <div class = "flex_col_right">
+
+		      <input type="search" id="advanced_search" name = "as_oq" class = "text1" autocomplete="off">
+
+    </div>
+    </div>
+
+    <div class = "flex_container">
+    <div class = "flex_col_left">
+        none of these words:
+    </div>
+    <div class = "flex_col_right">
+		      <input type="search" id="advanced_search" name = "as_eq" class = "text1" autocomplete="off">
+
+    </div>
+    </div>
+
+    
+<div>
+</div>
+<input type="submit" value="Advanced Search" class = "button" id = "advanced_button">
+
+          </form>
+
+
+</div>
+</body>
+
+</html>
